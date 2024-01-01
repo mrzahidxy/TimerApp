@@ -16,37 +16,4 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.title {
-  font-size: 6rem;
-  text-transform: uppercase;
-}
-
-.countdown-card {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem;
-}
-
-.countdown-box {
-  display: flex;
-  flex-direction: column;
-}
-
-.countdown-number {
-  font-size: 6rem;
-}
-
-.countdown-text {
-  font-size: 2rem;
-}
-
-.left-text {
-  align-self: end;
-  font-size: 2rem;
 }
