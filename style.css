@@ -1,19 +1,44 @@
 html {
-  font-size: 16px;
+  font-size: 4px;
 }
 
 body {
-  color: #ffffff;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
   margin: 0;
   padding: 0;
   background-image: url("./assets/cover-photo.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.quiz-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  border-radius: 1rem;
+  box-shadow: 4px 4px rgb(199, 194, 194);
+}
+
+.list {
+  list-style: none;
+}
+
+#submitBtn {
+  background-color: greenyellow;
+  border: none;
+  padding: 3rem;
+  border-radius: 1rem;
+  font-weight: 600;
 }
